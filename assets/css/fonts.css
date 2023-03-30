@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFProDisplay-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/SFProDisplay-Semibold.woff) format("woff");
+}
+@font-face {
+  font-family: "Almarena";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Almarena-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Almarena";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Almarena-Regular.woff) format("woff");
+}

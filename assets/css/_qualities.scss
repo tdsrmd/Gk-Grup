@@ -1,0 +1,41 @@
+.qualities {
+  font-size: 14px;
+  margin-top: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10%;
+}
+.qualities__text {
+  font-size: 4em;
+  max-width: 500px;
+}
+.qualities__cards {
+  font-size: 1.3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.qualities__card {
+  width: 270px;
+  padding: 50px 30px;
+  img {
+    height: 3em;
+  }
+  h3 {
+    margin-top: 27px;
+  }
+  p {
+    color: #a1a1a6;
+    margin-top: 33px;
+  }
+}
+@media (max-width: 768px) {
+  .qualities__text {
+    font-size: 2em;
+  }
+}

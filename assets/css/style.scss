@@ -1,0 +1,42 @@
+html {
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Almarena", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: black;
+  color: white;
+  position: relative;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+.blue-gradient {
+  font-size: 4em;
+  color: transparent;
+  background-image: linear-gradient(to right, #005e7f, #61b6cd);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.green-gradient {
+  font-size: 4em;
+  color: transparent;
+  background: #5d4157;
+  background: linear-gradient(to right, #a8caba, #5d4157);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@import "header", "scroll", "home", "intro", "qualities", "showtext";

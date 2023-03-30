@@ -1,0 +1,33 @@
+.intro {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #111111 30%);
+  font-size: 14px;
+  padding: 20% 20% 15% 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-bottom: 10px;
+    width: 7em;
+  }
+  p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #a1a1a6;
+    margin-top: 27px;
+    margin-bottom: 27px;
+  }
+  a {
+    font-size: 1.5em;
+    color: #2997ff;
+  }
+}
+.intro__container {
+  max-width: 1200px;
+}
+@media (max-width: 768px) {
+  .intro {
+    font-size: 10px;
+    padding: 10% 5%;
+  }
+}

@@ -1,0 +1,97 @@
+header {
+  font-size: 14px;
+  font-family: "SF Pro Display", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 130px 20px 100px;
+  z-index: 2;
+}
+
+.header__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header__text {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+.header__items {
+  display: flex;
+  align-items: center;
+  background-color: #0c0c0c;
+  height: 3.5em;
+  margin-left: 1.4em;
+  border-radius: 12px;
+}
+.header__item {
+  padding: 0.85em 0.57em;
+  min-width: 4.5em;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+
+.active,
+.header__item:hover {
+  background-color: #1f1f1f;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.header__right {
+  display: grid;
+  place-items: center;
+}
+.header__contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__icon {
+  padding: 0.8em;
+  background-color: #0c0c0c;
+  margin-left: 0.8em;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  span {
+    margin-left: 10px;
+  }
+}
+.header__icon:hover {
+  background-color: #1f1f1f;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px 0;
+    font-size: 11px;
+  }
+  .header__text {
+    display: none;
+  }
+  .header__right {
+    display: none;
+  }
+  .header__nav {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  }
+  .header__items {
+    margin: 0;
+  }
+}
